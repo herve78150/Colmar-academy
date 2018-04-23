@@ -6,19 +6,18 @@ html{
 
 
 h1{
-  font-weight: 900;
+  font-weight: 800;
   font-size: 2rem;
-  line-height: 2rem;
 }
 
 h2{
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-weight: 750;
+  font-size: 1.8rem;
 }
 
 h3{
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .h-container{
@@ -180,11 +179,13 @@ h3{
 
 .container-1 .keep-practicing h2{
   padding-top:2rem;
-  padding-bottom: 1.5rem
+  padding-bottom: 1.5rem;
 }
 
 .container-1 .keep-practicing p{
   padding-bottom: 2rem;
+  line-height: 1.5rem;
+  color: grey;
 }
 
 .container-1 img{
@@ -313,16 +314,22 @@ h3{
 
 .content-study{
   background-color: white;
-  height:10rem;
+  height:12rem;
   padding-left:1rem;
 }
 
-.content-study h2{
+.content-study h5{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size:1.3rem;
   color: grey;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
+.content-study h3{
+  padding-top:1rem;
+  padding-bottom:1.rem;
+}
+
 
 /*----------------*/
 /* Thesis exhibit */
@@ -330,26 +337,100 @@ h3{
 .thesis{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items:center;
   width: 100%;
-  margin-left: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .thesis h1{
   padding-top:2rem;
   padding-bottom:2rem;
 }
+
 .exhibit{
   display: flex;
   flex-direction: row;
+  padding-left: 1.5rem;
 }
 
 .movie{
-  width: 60%;
+  width:100%;
 }
 
 .movie video{
   height: auto;
   max-width: 100%;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding-left: 1.5rem;
+}
+
+.img-fisma{
+  padding: 1rem;
+}
+
+.img-fisma img{
+  height: auto;
+  max-width: 100%;
+}
+
+.fisma{
+  display: flex;
+  flex-direction: row;
+  background-color: #ccd9ff;
+}
+
+.text1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5rem;
+}
+
+.img-now{
+  padding: 1rem;
+  width:50%;
+}
+
+.img-now img{
+  height: auto;
+  max-width: 100%;
+}
+
+.now-then{
+  display: flex;
+  flex-direction: row;
+}
+
+.text2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5rem;
+}
+
+.Reimagine{
+  padding-top:1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  width: 60%;
+}
+
+.Reimagine h3{
+  padding-bottom: 0.5rem;
+}
+
+.Reimagine p{
+  font-size: 1.2rem;
+  color: grey;
+  line-height: 1.5rem;
+}
+
+footer{
+  padding-left:1.5rem;
+  padding-bottom:2rem;
 }
